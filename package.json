@@ -9,15 +9,16 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.1.3",
-    "@strapi/plugin-users-permissions": "4.1.3",
     "@strapi/plugin-i18n": "4.1.3",
+    "@strapi/plugin-users-permissions": "^4.6.0",
     "@strapi/provider-upload-cloudinary": "4.1.3",
+    "@strapi/strapi": "^4.6.0",
     "pg": "^8.7.0",
     "pg-connection-string": "^2.5.0",
-    "sqlite3": "latest"
+    "sqlite3": "latest",
+    "strapi-plugin-colorpicker": "^1.0.35",
+    "yarn.lock": "^0.0.1-security"
   },
   "author": {
     "name": "A Strapi developer"
